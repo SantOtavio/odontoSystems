@@ -28,17 +28,20 @@
 .inicio-header:hover {
     color: #0e89ef;
     transition: all .4s ease, visibility 0s;
+    cursor: pointer;
 }
 
 .planos-header {
     font-size: 20px;
     margin-left: 45px;
     font-weight: bolder;
+    
 }
 
 .planos-header:hover {
     color: #0e89ef;
     transition: all .4s ease, visibility 0s;
+    cursor: pointer;
 }
 
 .sobre-header {
@@ -50,6 +53,7 @@
 .sobre-header:hover {
     color: #0e89ef;
     transition: all .4s ease, visibility 0s;
+    cursor: pointer;
 }
 
 .suporte-header {
@@ -61,6 +65,7 @@
 .suporte-header:hover {
     color: #0e89ef;
     transition: all .4s ease, visibility 0s;
+    cursor: pointer;
 }
 
 .assine-header {
@@ -88,6 +93,7 @@
     transition: all .4s;
     border: black 1px solid;
     color: black; 
+    cursor: pointer;
 }
 .area-header {
     margin-left: 40px;
@@ -112,6 +118,7 @@
     transition: all .4s;
     border: black 1px solid;
     color: black; 
+    cursor: pointer;
 }
 
 .area-header-text {
