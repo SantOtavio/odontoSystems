@@ -1,37 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
-.header-out{
+
+.header-out {
     display: flex;
     align-items: center;
 }
-.logo-header-main{
+
+.logo-header-main {
     width: 45px;
 }
-.logo-header{
+
+.logo-header {
     margin: 25px 278px;
     width: 48px;
 }
-.inicio-header{
+
+.inicio-header {
     font-size: 20px;
     margin-left: -180px;
+    font-weight: bolder;
 }
-.planos-header{
+
+.inicio-header:hover {
+    color: #0e89ef;
+    transition: all .4s ease, visibility 0s;
+}
+
+.planos-header {
     font-size: 20px;
     margin-left: 45px;
+    font-weight: bolder;
 }
-.sobre-header{
+
+.planos-header:hover {
+    color: #0e89ef;
+    transition: all .4s ease, visibility 0s;
+}
+
+.sobre-header {
     font-size: 20px;
     margin-left: 45px;
+    font-weight: bolder;
 }
-.suporte-header{
+
+.sobre-header:hover {
+    color: #0e89ef;
+    transition: all .4s ease, visibility 0s;
+}
+
+.suporte-header {
     font-size: 20px;
     margin-left: 45px;
+    font-weight: bolder;
 }
-.assine-header{
+
+.suporte-header:hover {
+    color: #0e89ef;
+    transition: all .4s ease, visibility 0s;
+}
+
+.assine-header {
+    margin-left: 112px;
+}
+
+.assine-header-main {
     display: flex;
     border-radius: 30px;
+    width: 134px;
+    height: 35px;
+    align-items: center;
+    border: transparent 1px solid;
+    background-color: #0e89ef;
+    font-size: 17px;
+    font-weight: bolder;
+    padding-left: 31px;
+    color: aliceblue;
+    padding-bottom: 5px;
+}
+
+
+.assine-header-main:hover {
+    background-color: rgb(255, 255, 255);
+    transition: all .4s;
+    border: black 1px solid;
+    color: black; 
+}
+.area-header {
+    margin-left: 40px;
+}
+
+.area-header-main {
+    display: flex;
+    border-radius: 30px;
+    width: 197px;
+    height: 35px;
+    align-items: center;
+    border: transparent 1px solid;
+    background-color: #0e89ef;
+    font-size: 17px;
+    font-weight: bolder;
+    padding-left: 31px;
+    color: aliceblue;
+    padding-bottom: 5px;
+}
+.area-header-main:hover {
+    background-color: rgb(255, 255, 255);
+    transition: all .4s;
+    border: black 1px solid;
+    color: black; 
+}
+
+.area-header-text {
+    font-size: 17px;
+    font-weight: bolder;
+    padding-left: 31px;
+    color: aliceblue;
+    padding-bottom: 5px;
 }
