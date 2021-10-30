@@ -8,10 +8,12 @@
 .header-out {
     display: flex;
     align-items: center;
+    box-shadow: inset 0 -2px 0 0 #ffff,0 3px 5px 0 rgba(0,0,0,0.2);
 }
 
 .logo-header-main {
     width: 45px;
+    margin-left: -74px;
 }
 
 .logo-header {
@@ -35,7 +37,7 @@
     font-size: 20px;
     margin-left: 45px;
     font-weight: bolder;
-    
+    cursor: pointer;
 }
 
 .planos-header:hover {
@@ -48,6 +50,7 @@
     font-size: 20px;
     margin-left: 45px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .sobre-header:hover {
@@ -60,6 +63,7 @@
     font-size: 20px;
     margin-left: 45px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .suporte-header:hover {
@@ -70,6 +74,7 @@
 
 .assine-header {
     margin-left: 112px;
+    cursor: pointer;
 }
 
 .assine-header-main {
@@ -85,6 +90,7 @@
     padding-left: 31px;
     color: aliceblue;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 
 
@@ -97,6 +103,7 @@
 }
 .area-header {
     margin-left: 40px;
+    cursor: pointer;
 }
 
 .area-header-main {
@@ -112,6 +119,7 @@
     padding-left: 31px;
     color: aliceblue;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 .area-header-main:hover {
     background-color: rgb(255, 255, 255);
@@ -127,4 +135,22 @@
     padding-left: 31px;
     color: aliceblue;
     padding-bottom: 5px;
+    cursor: pointer;
+}
+.teste{
+    width: 100%;
+    display: flex;
+    background:url(degrade-teste.png);
+}
+.items-main1{
+    display: flex;
+    align-items: center;
+}
+.title-text-main{
+    position: absolute;
+}
+.main-top{
+    width: 100%;
+    height: 538px;
+    background-color: #0e89ef;
 }
