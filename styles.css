@@ -21,13 +21,26 @@
     width: 48px;
 }
 
-.inicio-header {
+#inicio_header {
     font-size: 20px;
     margin-left: -180px;
     font-weight: bolder;
 }
 
-.inicio-header:hover {
+#inicio_header:hover {
+    color: #0e89ef;
+    transition: all .4s ease, visibility 0s;
+    cursor: pointer;
+}
+
+#botao {
+    border: none;
+    background-color: #FFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#botao:hover {
     color: #0e89ef;
     transition: all .4s ease, visibility 0s;
     cursor: pointer;
@@ -238,12 +251,7 @@
     margin-top: -25%;
     border-radius: 10px;
     border: 1px solid;
-    border-color: #00000005;
-}
-
-.homepage {
-    height: 539px;
-    box-shadow: inset 0 -2px 0 0 #ffff, 0 5px 7px 0 rgba(0, 0, 0, 0.2);
+    border-color: #0e89ef;
 }
 
 .title-jacliente {
@@ -269,6 +277,7 @@
     text-align: center;
     font-weight: 600;
 }
+
 .senha-text {
     margin-top: 11px;
     font-weight: 600;
@@ -282,11 +291,13 @@
     text-align: center;
     font-weight: 600;
 }
-.loginbutton-jacliente{
+
+.loginbutton-jacliente {
     width: 136px;
     margin-left: 29%;
     margin-top: 6%;
 }
+
 .loginbutton-main {
     display: flex;
     border-radius: 30px;
@@ -309,4 +320,408 @@
     border: black 1px solid;
     color: black;
     cursor: pointer;
+}
+
+.hrefplanos {
+    text-decoration: none;
+    color: black;
+}
+
+.planos {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    margin-left: -14px;
+    margin-top: -65px;
+}
+
+.plano-basico {
+    width: 228px;
+    height: 338px;
+    background-color: #EFEFEF;
+    margin-left: 11%;
+    margin-top: 8%;
+    border-radius: 15px;
+    background-color: #d7d7d7ad;
+    border: #0e89ef, solid;
+    border: #0e89ef solid 1px;
+}
+
+.plano-intermediario {
+    width: 228px;
+    height: 338px;
+    background-color: #EFEFEF;
+    margin-left: 11%;
+    margin-top: 8%;
+    border-radius: 15px;
+    background-color: #d7d7d7ad;
+    border: #0e89ef, solid;
+    border: #0e89ef solid 1px;
+}
+
+.plano-avancado {
+    width: 228px;
+    height: 338px;
+    background-color: #EFEFEF;
+    margin-left: 11%;
+    margin-top: 8%;
+    border-radius: 15px;
+    background-color: #d7d7d7ad;
+    border: #0e89ef, solid;
+    border: #0e89ef solid 1px;
+}
+
+.estrela-basico {
+    height: 66px;
+    box-shadow: inset 0 -2px 0 0 #2786f0, 0 3px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.estrela-basico-main {
+    width: 110px;
+    margin-left: 57px;
+}
+
+.plano-basico-text {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.plano-basico-text2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -4px;
+    color: #0e89ef;
+}
+
+.especif-basico1 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.ponto-basico {
+    width: 20px;
+    height: 5px;
+    background-color: #0e89ef;
+    margin-left: 22px;
+}
+
+.especif-basico2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.especif-basico3 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.text1-especif-basico {
+    font-size: 23px;
+    margin-left: 22px;
+    margin-top: -5px;
+}
+
+.ponto-basico2 {
+    width: 20px;
+    height: 5px;
+    background-color: #0e89ef;
+    margin-left: 22px;
+}
+
+.text1-especif-basico2 {
+    font-size: 23px;
+    margin-left: 22px;
+    margin-top: -5px;
+}
+
+.ponto-basico3 {
+    width: 20px;
+    height: 5px;
+    background-color: #0e89ef;
+    margin-left: 22px;
+}
+
+.text1-especif-basico3 {
+    font-size: 23px;
+    margin-left: 22px;
+    margin-top: -5px;
+    line-height: 20px;
+}
+
+.compra-basico {
+    margin-left: 57px;
+    margin-top: 26px;
+}
+
+#compra-basico-main {
+    border: none;
+    border-radius: 6px;
+    background-color: transparent;
+    width: 116px;
+    height: 37px;
+    font-size: 19px;
+    font-weight: 600;
+    color: transparent;
+    TEXT-ALIGN: CENTER;
+    cursor: pointer;
+}
+
+.plano-basico:hover #compra-basico-main {
+    border: none;
+    border-radius: 6px;
+    background-color: #0e89ef;
+    width: 116px;
+    height: 37px;
+    font-size: 19px;
+    font-weight: 600;
+    color: aliceblue;
+    TEXT-ALIGN: CENTER;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.estrela-intermediario {
+    height: 66px;
+    box-shadow: inset 0 -2px 0 0 #2786f0, 0 3px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.estrela-intermediario-main {
+    width: 110px;
+    margin-left: 57px;
+}
+
+.plano-intermediario-text {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.plano-intermediario-text2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -4px;
+    color: #0e89ef;
+}
+
+.especif-intermediario1 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.especif-intermediario2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.especif-intermediario3 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.ponto-intermediario {
+    width: 20px;
+    height: 5px;
+    background-color: #0e89ef;
+    margin-left: 22px;
+}
+
+.text1-especif-intermediario {
+    font-size: 23px;
+    margin-left: 22px;
+    margin-top: -5px;
+}
+
+.ponto-intermediario2 {
+    width: 20px;
+    height: 5px;
+    background-color: #0e89ef;
+    margin-left: 22px;
+}
+
+.text1-especif-intermediario2 {
+    font-size: 23px;
+    margin-left: 22px;
+    margin-top: -5px;
+}
+
+.ponto-intermediario3 {
+    width: 20px;
+    height: 5px;
+    background-color: #0e89ef;
+    margin-left: 22px;
+}
+
+.text1-especif-intermediario3 {
+    font-size: 23px;
+    margin-left: 22px;
+    margin-top: -5px;
+    line-height: 20px;
+}
+
+.compra-intermediario {
+    margin-left: 57px;
+    margin-top: 26px;
+}
+
+#compra-intermediario-main {
+    border: none;
+    border-radius: 6px;
+    background-color: transparent;
+    width: 116px;
+    height: 37px;
+    font-size: 19px;
+    font-weight: 600;
+    color: transparent;
+    TEXT-ALIGN: CENTER;
+    cursor: pointer;
+}
+
+.plano-intermediario:hover #compra-intermediario-main {
+    border: none;
+    border-radius: 6px;
+    background-color: #0e89ef;
+    width: 116px;
+    height: 37px;
+    font-size: 19px;
+    font-weight: 600;
+    color: aliceblue;
+    TEXT-ALIGN: CENTER;
+    cursor: pointer;
+    transition: .3s;
+}
+.plano-avancado{
+    width: 243px;
+}
+.estrela-avancado {
+    height: 66px;
+    box-shadow: inset 0 -2px 0 0 #2786f0, 0 3px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.estrela-avancado-main {
+    width: 110px;
+    margin-left: 65px;
+}
+
+.plano-avancado-text {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.plano-avancado-text2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -4px;
+    color: #0e89ef;
+}
+
+.especif-avancado1 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.especif-avancado2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.especif-avancado3 {
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.ponto-avancado {
+    width: 20px;
+    height: 5px;
+    background-color: #0e89ef;
+    margin-left: 22px;
+}
+
+.text1-especif-avancado {
+    font-size: 23px;
+    margin-left: 22px;
+    margin-top: -5px;
+}
+
+.ponto-avancado2 {
+    width: 20px;
+    height: 5px;
+    background-color: #0e89ef;
+    margin-left: 22px;
+}
+
+.text1-especif-avancado2 {
+    font-size: 23px;
+    margin-left: 22px;
+    margin-top: -5px;
+}
+
+.ponto-avancado3 {
+    width: 20px;
+    height: 5px;
+    background-color: #0e89ef;
+    margin-left: 22px;
+}
+
+.text1-especif-avancado3 {
+    font-size: 23px;
+    margin-left: 22px;
+    margin-top: -5px;
+    line-height: 20px;
+}
+
+.compra-avancado {
+    margin-left: 57px;
+    margin-top: 36px;
+}
+
+#compra-avancado-main {
+    border: none;
+    border-radius: 6px;
+    background-color: transparent;
+    width: 116px;
+    height: 37px;
+    font-size: 19px;
+    font-weight: 600;
+    color: transparent;
+    TEXT-ALIGN: CENTER;
+    cursor: pointer;
+}
+
+.plano-avancado:hover #compra-avancado-main {
+    border: none;
+    border-radius: 6px;
+    background-color: #0e89ef;
+    width: 116px;
+    height: 37px;
+    font-size: 19px;
+    font-weight: 600;
+    color: aliceblue;
+    TEXT-ALIGN: CENTER;
+    cursor: pointer;
+    transition: .3s;
+}
+.plano-avancado{
+    width: 243px;
+}
+.title-planos{
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 31.5%;
 }
