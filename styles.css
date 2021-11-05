@@ -166,53 +166,65 @@
     align-items: center;
 }
 
-.img-dentista {
-    margin-left: 114%;
-    margin-top: 54.7%;
-}
-
 .title-top {
-    margin-left: -14%;
-    margin-bottom: 313px;
+    /* margin-left: -14%; */
+    /* margin-bottom: 313px; */
     font-size: 31px;
     font-weight: 700;
     color: #2888ef;
+    position: relative;
+    left: 8px;
 }
 
 .frase-top {
-    margin-left: -218px;
-    margin-top: -14%;
+    /* margin-left: -218px; */
+    /* margin-top: -14%; */
     font-size: 20px;
     font-weight: 600;
     color: black;
+    position: relative;
+    top: 14px;
+    left: 8px;
 }
 
 .frase2-top {
-    margin-left: -16.7%;
-    margin-top: -10%;
+    /* margin-left: -16.7%; */
+    /* margin-top: -10%; */
     font-size: 20px;
     font-weight: 600;
     color: black;
+    position: relative;
+    top: 14px;
+    top: 9px;
 }
 
 .primeiro-mes {
     font-size: 20px;
     font-weight: 600;
-    margin-left: -18.45%;
+    /* margin-left: -18.45%; */
+    position: relative;
+    top: 36px;
+    left: 52px;
 }
 
 .gratis {
     color: #2888ef;
     font-size: 54px;
     font-weight: 700;
-    margin-top: 8%;
-    margin-left: -9%;
+    /* margin-top: 8%; */
+    /* margin-left: -9%; */
+    position: relative;
+    top: 22px;
+    left: 22px;
 }
 
 .apenas-novos {
-    margin-top: 15%;
-    margin-left: -13.7%;
+    /* margin-top: 15%; */
+    /* margin-left: -13.7%; */
     font-weight: 700;
+    position: relative;
+    top: 12px;
+    left: 13px;
 }
 
 .button-adquira-main {
@@ -232,9 +244,13 @@
 }
 
 .button-adquira {
-    margin-left: 11%;
+    /* margin-left: 11%; */
     cursor: pointer;
-    margin-top: -9%;
+    /* margin-top: -9%; */
+    width: min-content;
+    position: relative;
+    top: 56px;
+    left: 15px;
 }
 
 .button-adquira-main:hover {
@@ -243,15 +259,18 @@
 }
 
 .jacliente {
-    padding: 10px 10px 10px 10px;
+    /* padding: 10px 10px 10px 10px; */
     background-color: #efefef;
-    width: 21%;
+    width: 39vh;
     height: 235px;
     margin-left: 71%;
     margin-top: -25%;
     border-radius: 10px;
     border: 1px solid;
     border-color: #0e89ef;
+    position: relative;
+    bottom: 70vh;
+    left: 63vh;
 }
 
 .title-jacliente {
@@ -281,20 +300,23 @@
 .senha-text {
     margin-top: 11px;
     font-weight: 600;
+    text-align: center;
 }
 
 .senha-input {
     width: 250px;
-    margin-left: 4px;
+    margin-left: 32px;
     border: 1px solid #0000003d;
     border-radius: 10px;
     text-align: center;
     font-weight: 600;
+    text-align: center;
+    align-items: center;
 }
 
 .loginbutton-jacliente {
     width: 136px;
-    margin-left: 29%;
+    margin-left: 34%;
     margin-top: 6%;
 }
 
@@ -327,12 +349,21 @@
     color: black;
 }
 
+.hrefsobre {
+    text-decoration: none;
+    color: black;
+}
+
 .planos {
+    width: 175vh;
     display: flex;
     align-items: center;
     column-gap: 40px;
     margin-left: -14px;
     margin-top: -65px;
+    position: relative;
+    top: 6vh;
+    left: 7vh;
 }
 
 .plano-basico {
@@ -545,7 +576,7 @@
 .ponto-intermediario2 {
     width: 20px;
     height: 5px;
-    background-color: #0e89ef;
+    background-color: #8f8f8f;
     margin-left: 22px;
 }
 
@@ -600,9 +631,11 @@
     cursor: pointer;
     transition: .3s;
 }
-.plano-avancado{
+
+.plano-avancado {
     width: 243px;
 }
+
 .estrela-avancado {
     height: 66px;
     box-shadow: inset 0 -2px 0 0 #2786f0, 0 3px 5px 0 rgb(0 0 0 / 20%);
@@ -717,14 +750,258 @@
     cursor: pointer;
     transition: .3s;
 }
-.plano-avancado{
+
+.plano-avancado {
     width: 243px;
 }
-.title-planos{
+
+.title-planos {
     font-size: 50px;
     margin-top: 40px;
     margin-left: 31.5%;
 }
-.homepage{
+
+.homepage {
     height: 619px;
+    display: flex;
+    align-items: center;
+}
+
+.text-homepage {
+    /* margin-top: 74px; */
+    /* width: 100%; */
+    width: 67vh;
+    height: 63vh;
+    display: grid;
+    /* padding-top: 22px; */
+    position: relative;
+    top: 89px;
+    left: 20vh;
+}
+
+.imgdentista {
+    position: relative;
+    bottom: 21vh;
+    width: min-content;
+    height: min-content;
+    left: 42vh;
+}
+
+.email-login {
+    /* width: min-content; */
+    text-align: center;
+    margin-right: 0;
+    position: relative;
+    /* left: 47vh; */
+    align-items: center;
+}
+
+.logowith-text {
+    width: min-content;
+    position: relative;
+    bottom: 113vh;
+    left: 51vh;
+}
+
+.logowithtext-main {
+    width: 294px;
+}
+
+.socials-homepage {
+    width: min-content;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 61vh;
+    left: 145vh;
+}
+
+.whatsapp-homepage {
+    width: 45px;
+    position: relative;
+    /* bottom: 61vh; */
+    /* left: 144vh; */
+}
+
+.instagram-homepage {
+    width: 45px;
+    position: relative;
+    /* bottom: 61vh; */
+    left: 2vh;
+}
+
+.socials-planos {
+    width: min-content;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* bottom: 61vh; */
+    left: 167vh;
+    top: 18vh;
+}
+
+.whatsapp-planos {
+    width: 45px;
+    position: relative;
+    /* bottom: 61vh; */
+    /* left: 144vh; */
+}
+
+.instagram-planos {
+    width: 45px;
+    position: relative;
+    /* bottom: 61vh; */
+    left: 2vh;
+}
+
+.text-sobre {
+    position: relative;
+    top: 6vh;
+}
+
+.title-sobre {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.history-sobre {
+    width: 700px;
+    font-size: 20px;
+}
+
+.pergunta-1 {
+    position: relative;
+    top: 16vh;
+}
+
+.title-pergunta1 {
+    position: relative;
+    left: 14vh;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0e89ef;
+}
+
+.resposta-pergunta1 {
+    position: relative;
+    font-size: 19px;
+    width: 143vh;
+    padding-left: 112px;
+    /* left: 14vh; */
+    font-weight: 600;
+}
+
+.pergunta-1:hover {
+    background-color: rgba(71, 71, 71, 0.199);
+    transition: .4s;
+}
+
+.pergunta-2 {
+    position: relative;
+    top: 16vh;
+    height: 119px;
+}
+
+.title-pergunta2 {
+    position: relative;
+    left: 14vh;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0e89ef;
+}
+
+.resposta-pergunta2 {
+    position: relative;
+    font-size: 19px;
+    width: 143vh;
+    padding-left: 112px;
+    /* left: 14vh; */
+    font-weight: 600;
+}
+
+.pergunta-2:hover {
+    background-color: rgba(71, 71, 71, 0.199);
+    transition: .4s;
+}
+.perguntas-faq{
+    display: grid;
+    row-gap: 5vh;
+}
+.pergunta-3 {
+    position: relative;
+    top: 16vh;
+}
+
+.title-pergunta3 {
+    position: relative;
+    left: 14vh;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0e89ef;
+}
+
+.resposta-pergunta3 {
+    position: relative;
+    font-size: 19px;
+    width: 143vh;
+    padding-left: 112px;
+    /* left: 14vh; */
+    font-weight: 600;
+}
+
+.pergunta-3:hover {
+    background-color: rgba(71, 71, 71, 0.199);
+    transition: .4s;
+}
+.pergunta-4 {
+    position: relative;
+    top: 16vh;
+}
+
+.title-pergunta4 {
+    position: relative;
+    left: 14vh;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0e89ef;
+}
+
+.resposta-pergunta4 {
+    position: relative;
+    font-size: 19px;
+    width: 143vh;
+    padding-left: 112px;
+    /* left: 14vh; */
+    font-weight: 600;
+}
+
+.pergunta-4:hover {
+    background-color: rgba(71, 71, 71, 0.199);
+    transition: .4s;
+}
+.socials-sobre {
+    width: min-content;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* bottom: 61vh; */
+    left: 167vh;
+}
+
+.whatsapp-sobre {
+    width: 45px;
+    position: relative;
+    /* bottom: 61vh; */
+    /* left: 144vh; */
+}
+
+.instagram-sobre {
+    width: 45px;
+    position: relative;
+    /* bottom: 61vh; */
+    left: 2vh;
+}
+.itens-sobre-footer{
+    display: flex;
+    align-items: center;
 }
