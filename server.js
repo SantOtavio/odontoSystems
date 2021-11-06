@@ -14,3 +14,9 @@ app.listen(port);
 console.log('Server started at http://localhost:' + port);
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('public'));
+
+"scripts"; {
+    "start";"node server.js",
+    "test"; "echo \"Error: no test specified\" && exit 1"
+  }
+  
