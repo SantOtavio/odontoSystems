@@ -1130,3 +1130,9 @@ main {
 .conteudo-suporte{
     padding-top: 14vh;
 }
+.hrefassinante{
+    text-decoration: none;
+}
+#body-areaassinante{
+    background-image: url(https://i.ytimg.com/vi/fq_K3sdzM2c/sddefault.jpg);
+}
